@@ -1,0 +1,13 @@
+p.destacado {
+font-size: 18px;
+
+}
+p.final {
+    font-style: oblique;
+}
+
+
+#mensaje p.destacado.final {
+    font-weight: bolder;
+    color: red;
+}

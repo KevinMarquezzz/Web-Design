@@ -1,0 +1,25 @@
+main{
+    background-color: lightyellow;
+    padding: 20px;
+}
+h1{
+    color: gray;
+}
+h2{
+    color: lightgray;;
+}
+a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+li {
+    font-size: 16px;
+    color: black;
+}
+li:first-child {
+font-weight: bold;
+}
+li:last-child{
+    font-weight: bold;
+}

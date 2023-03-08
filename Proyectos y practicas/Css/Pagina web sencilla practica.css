@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+}
+body{
+background-color: rgba(1, 1, 32, 0.897);
+
+}
+main {
+    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    width: 800px;
+    color: aliceblue;
+        
+}
+
+.contenido h1, h2 {
+    font-size: 40px;
+}
+
+.iconos p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.iconos img {
+   margin-top: -35px;
+    width: 120px;
+     margin-right: 70px;
+     margin-bottom: 20px;
+}
+
+#boton  {
+    text-decoration: none;
+    color: rgb(10,10,35);
+    font-size: 25px;
+    background-color: rgb(248, 196, 63);
+    padding: 20px;
+    border-style: groove;
+    border-color: rgb(248, 196, 63);
+    display: grid;
+    place-items: center;
+    
+}
+#boton:hover {
+background-color: rgb(245, 200, 87);
+ 
+ }
+
+ #boton:active{
+    background-color: rgb(226, 179, 58);
+    
+ }
+
+.resto img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.resto figcaption {
+    color: rgb(185, 187, 187);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+
+}
+    
